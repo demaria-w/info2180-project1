@@ -1,4 +1,4 @@
-/* Add your JavaScript to this file */
+/* JavaScript added to this file*/
 
 document.addEventListener("DOMContentLoaded", function(){
     const form = document.querySelector(".newsletter form");
@@ -8,7 +8,7 @@ document.addEventListener("DOMContentLoaded", function(){
     form.addEventListener("submit", function(event){
         event.preventDefault(); //prevents error when refreshing the page
 
-        const email = emailInput.value.trim();
+        const email = emailInput.value.trim(); //helps validate input
 
         message.classList.remove("success","error"); //removes any previous content
 
@@ -20,7 +20,7 @@ document.addEventListener("DOMContentLoaded", function(){
             message.classList.add("success");
         }
 
-        email.value = ""; //resets to a blank value
+        emailInput.value = ""; //resets to a blank value
 
     });
 });

@@ -1,10 +1,21 @@
-/* Add your CSS to this file */
+/* CSS added to this file */
 body {
     margin: 0;
     font-size: 18px;
     font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif;
 }
 
+a{
+    text-decoration:none;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 960px;
+    width: 100%;
+}
+
+/*header section */
 header {
     background-color: white;
     font-size: 18px;
@@ -25,6 +36,8 @@ header h1{
     padding:5px;
 }
 
+/*overview hero section */
+
 .overview-hero{
     margin:0px;
     padding:80px;
@@ -40,14 +53,16 @@ header h1{
     margin-right: 20px;
 }
 
+.overview-hero{
+    background-color: #E2E8F0;
+}
+
+/*navigation section*/
+
 nav{
     padding:10px;
     margin:10px;
     font-weight: bold;
-}
-
-a{
-    text-decoration:none;
 }
 
 nav ul{
@@ -65,9 +80,7 @@ nav li:hover a{
     color:#5A67D8;
 }
 
-.overview-hero{
-    background-color: #E2E8F0;
-}
+/* learn about section */
 
 .learn-about{
     padding:20px;
@@ -102,6 +115,7 @@ nav li:hover a{
     border-radius: 5px;
 }
 
+/*testing section */
 .testing{
     background-color: #4A5568;
     color: white;
@@ -137,6 +151,7 @@ nav li:hover a{
     padding:10px;
 }
 
+/*stories section */
 .stories{
     border-radius: 5px;
     padding:60px;
@@ -174,6 +189,7 @@ nav li:hover a{
     overflow:hidden; /*ensures text is wrapped around image */
 }
 
+/*newsletter section */
 .newsletter{
     background-color: #48BB78;
     color: white;
@@ -213,6 +229,7 @@ nav li:hover a{
     outline:none;
 }
 
+/* for the subscribe button */
 .message.success{
     color:white;
 }
@@ -221,14 +238,10 @@ nav li:hover a{
     color:darkred;
 }
 
+/*footer section*/
+
 footer{
     background-color: #4A5568;
     color: white;
     padding: 30px;
-}
-
-.container {
-    margin: 0 auto;
-    max-width: 960px;
-    width: 100%;
 }
