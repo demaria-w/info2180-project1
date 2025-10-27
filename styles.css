@@ -38,12 +38,14 @@ header h1{
 
 /*overview hero section */
 
-.overview-hero{
+.overview-hero {
     margin:0px;
     padding:80px;
     display: flex;
     align-items: center;
     justify-content:space-between;
+    background-color: #E2E8F0;
+
 }
 
 .overview-hero .overview-hero-image img{
@@ -51,10 +53,6 @@ header h1{
     height:auto;
     float: left;
     margin-right: 20px;
-}
-
-.overview-hero{
-    background-color: #E2E8F0;
 }
 
 /*navigation section*/
@@ -173,12 +171,8 @@ nav li:hover a{
     margin-right: 15px;
 }
 
-.stories h2{
+.stories h2, .stories a{
     color: #5A67D8;
-}
-
-.stories a{
-    color:#5A67D8;
 }
 
 .stories h3{
